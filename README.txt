@@ -8,5 +8,5 @@ Se añadieron los archivos de GNU Radio de cada modulación 'OOK', 'BPSK' y 'FSK
 * Se realizó un breve recorrido por las diferentes remas relacionadas a la Práctica 3, con el fin de mejorar el control de versiones.
 
  7/11/2024
-* Se realizo la toma de datos para la primera parde de la practica 3 de "RF_EC"
+* Se realizó la toma de datos para la primera parte de la práctica 3 de "RF_EC"
 
