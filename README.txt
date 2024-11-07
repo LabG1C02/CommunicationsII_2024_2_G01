@@ -5,4 +5,8 @@ Se creo la rama "P3_Darwin" en el PC del laboratorio, para subir los archivos us
 Se añadieron los archivos de GNU Radio de cada modulación 'OOK', 'BPSK' y 'FSK', al igual que se finalizaba el informe 2.
 
 12/10/2024
-* Se realizó un breve reocrrido por las diferentes remas relacionadas a la Práctica 3, con el fin de mejorar el control de versiones.
+* Se realizó un breve recorrido por las diferentes remas relacionadas a la Práctica 3, con el fin de mejorar el control de versiones.
+
+ 7/11/2024
+* Se realizo la toma de datos para la primera parde de la practica 3 de "RF_EC"
+
