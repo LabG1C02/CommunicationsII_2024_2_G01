@@ -431,7 +431,7 @@ blocks:
     alpha7: '1.0'
     alpha8: '1.0'
     alpha9: '1.0'
-    autoscale: 'False'
+    autoscale: 'True'
     axislabels: 'True'
     color1: '"blue"'
     color10: '"red"'
@@ -543,7 +543,7 @@ blocks:
     fftsize: 1024*8
     freqhalf: 'True'
     grid: 'False'
-    gui_hint: ''
+    gui_hint: Menu@2:4,1,1,1
     label: Relative Gain
     label1: RF Modulated Signal
     label10: ''''''
@@ -604,7 +604,7 @@ blocks:
     alpha7: '1.0'
     alpha8: '1.0'
     alpha9: '1.0'
-    autoscale: 'False'
+    autoscale: 'True'
     average: '0.05'
     axislabels: 'True'
     bw: samp_rate
@@ -782,7 +782,7 @@ blocks:
     alpha7: '1.0'
     alpha8: '1.0'
     alpha9: '1.0'
-    autoscale: 'False'
+    autoscale: 'True'
     axislabels: 'True'
     color1: blue
     color10: dark blue
@@ -879,7 +879,7 @@ blocks:
     alpha7: '1.0'
     alpha8: '1.0'
     alpha9: '1.0'
-    autoscale: 'False'
+    autoscale: 'True'
     axislabels: 'True'
     color1: blue
     color10: dark blue
@@ -1189,4 +1189,4 @@ connections:
 
 metadata:
   file_format: 1
-  grc_version: v3.11.0.0git-810-g1ecb8565
+  grc_version: 3.10.10.0

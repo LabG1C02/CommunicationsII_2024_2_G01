@@ -154,7 +154,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [744, 848.0]
+    coordinate: [624, 868.0]
     rotation: 0
     state: true
 - name: analog_const_source_x_0
@@ -209,7 +209,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [320, 144.0]
+    coordinate: [248, 124.0]
     rotation: 0
     state: disabled
 - name: blocks_char_to_float_0
@@ -262,7 +262,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [464, 144.0]
+    coordinate: [496, 124.0]
     rotation: 0
     state: disabled
 - name: blocks_multiply_const_vxx_0_1
@@ -543,7 +543,7 @@ blocks:
     fftsize: 1024*8
     freqhalf: 'True'
     grid: 'False'
-    gui_hint: ''
+    gui_hint: Menu@2:4,1,1,1
     label: Relative Gain
     label1: RF Modulated Signal
     label10: ''''''
@@ -893,9 +893,9 @@ blocks:
     color9: dark green
     comment: ''
     ctrlpanel: 'False'
-    entags: 'True'
+    entags: 'False'
     grid: 'False'
-    gui_hint: ''
+    gui_hint: Menu@1:4,1,1,1
     label1: Modulating Signal
     label10: Signal 10
     label2: RF Modulated signal
@@ -1081,7 +1081,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [392.0, 344]
+    coordinate: [428.0, 344]
     rotation: 270
     state: true
 - name: virtual_sink_0_0_0
@@ -1192,4 +1192,4 @@ connections:
 
 metadata:
   file_format: 1
-  grc_version: v3.11.0.0git-810-g1ecb8565
+  grc_version: 3.10.10.0
