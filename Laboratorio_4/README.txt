@@ -8,3 +8,4 @@
 
 18/11/2024
 * Se terminó el informe correspondiente a esta práctica y se procede a su envio, posterior a esto, se procede con la carga de archivos al repositorio.
+* Se hizo merge de las ramas 'P3_Darwin' y 'P3_Diego' desde la rama 'LAB_4'.
