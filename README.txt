@@ -5,3 +5,6 @@
 
 14/11/2024
 * Se siguió avanzando con la toma de evidencias de la practica.
+
+18/11/2024
+* Se terminó el informe correspondiente a esta práctica y se procede a su envio, posterior a esto, se procede con la carga de archivos al repositorio.

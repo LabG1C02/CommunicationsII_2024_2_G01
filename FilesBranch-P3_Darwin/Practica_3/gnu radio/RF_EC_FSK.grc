@@ -154,7 +154,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [744, 848.0]
+    coordinate: [768, 892.0]
     rotation: 0
     state: true
 - name: analog_const_source_x_0
@@ -171,8 +171,8 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [1016, 456.0]
-    rotation: 180
+    coordinate: [824, 308.0]
+    rotation: 0
     state: true
 - name: analog_random_source_x_0
   id: analog_random_source_x
@@ -209,7 +209,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [320, 144.0]
+    coordinate: [224, 124.0]
     rotation: 0
     state: enabled
 - name: blocks_char_to_float_0
@@ -244,7 +244,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [912, 96.0]
+    coordinate: [864, 92.0]
     rotation: 0
     state: enabled
 - name: blocks_multiply_const_vxx_0_0
@@ -262,7 +262,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [464, 144.0]
+    coordinate: [440, 100.0]
     rotation: 0
     state: enabled
 - name: blocks_multiply_const_vxx_0_1
@@ -280,7 +280,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [848, 192.0]
+    coordinate: [816, 196.0]
     rotation: 0
     state: disabled
 - name: epy_block_0
@@ -311,7 +311,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [1080, 168.0]
+    coordinate: [1136, 172.0]
     rotation: 0
     state: true
 - name: epy_block_0_0
@@ -337,7 +337,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [1080, 304.0]
+    coordinate: [1136, 296.0]
     rotation: 0
     state: true
 - name: epy_block_0_1
@@ -368,7 +368,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [752, 104.0]
+    coordinate: [704, 100.0]
     rotation: 0
     state: enabled
 - name: import_0
@@ -413,7 +413,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [528, 240.0]
+    coordinate: [560, 252.0]
     rotation: 0
     state: true
 - name: qtgui_const_sink_x_0
@@ -861,7 +861,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [265, 580]
+    coordinate: [256, 612.0]
     rotation: 0
     state: true
 - name: qtgui_time_sink_x_0_1_0
@@ -895,7 +895,7 @@ blocks:
     ctrlpanel: 'False'
     entags: 'True'
     grid: 'False'
-    gui_hint: ''
+    gui_hint: Menu@1:2,1,1,1
     label1: Modulating Signal
     label10: Signal 10
     label2: RF Modulated signal
@@ -1068,8 +1068,8 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [1256, 448.0]
-    rotation: 0
+    coordinate: [1284.0, 384]
+    rotation: 270
     state: enabled
 - name: virtual_sink_0_0
   id: virtual_sink
@@ -1081,7 +1081,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [392.0, 344]
+    coordinate: [412.0, 272]
     rotation: 270
     state: true
 - name: virtual_sink_0_0_0
@@ -1094,7 +1094,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [704.0, 328]
+    coordinate: [740.0, 328]
     rotation: 270
     state: true
 - name: virtual_sink_0_0_0_0
@@ -1133,7 +1133,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [11, 603]
+    coordinate: [8, 652.0]
     rotation: 0
     state: true
 - name: virtual_source_0_1_0
@@ -1164,13 +1164,13 @@ blocks:
     state: true
 
 connections:
-- [analog_const_source_x_0, '0', epy_block_0, '1']
-- [analog_const_source_x_0, '0', epy_block_0_0, '1']
+- [analog_const_source_x_0, '0', epy_block_0, '0']
+- [analog_const_source_x_0, '0', epy_block_0_0, '0']
 - [analog_random_source_x_0, '0', blocks_char_to_float_0, '0']
 - [blocks_add_const_vxx_0, '0', blocks_multiply_const_vxx_0_0, '0']
 - [blocks_char_to_float_0, '0', blocks_add_const_vxx_0, '0']
-- [blocks_multiply_const_vxx_0, '0', epy_block_0, '0']
-- [blocks_multiply_const_vxx_0, '0', epy_block_0_0, '0']
+- [blocks_multiply_const_vxx_0, '0', epy_block_0, '1']
+- [blocks_multiply_const_vxx_0, '0', epy_block_0_0, '1']
 - [blocks_multiply_const_vxx_0_0, '0', interp_fir_filter_xxx_0, '0']
 - [blocks_multiply_const_vxx_0_0, '0', virtual_sink_0_0, '0']
 - [epy_block_0, '0', virtual_sink_0_0_0_0, '0']
